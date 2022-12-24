@@ -66,7 +66,7 @@ namespace WordGuessingGame
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter ");
+            Console.WriteLine("Enter the sentence:");
             string sen = Console.ReadLine();
             sen = Regex.Replace(sen, @"\s+", " ");
             Console.WriteLine($"You entered (without multiple spaces): {sen}");
